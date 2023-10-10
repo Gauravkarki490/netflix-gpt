@@ -5,7 +5,7 @@
 src/utils/firebase.js
 /.firebase
 .firebasesrc
-firebase.json
+/firebase.json
 /.pnp
 .pnp.js
 
