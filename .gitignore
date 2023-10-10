@@ -2,10 +2,10 @@
 
 # dependencies
 /node_modules
-/src/utils/firebase
-/.firebase
-/.firebasesrc
-/firebase
+/src/utils/firebase.js
+.firebase
+.firebasesrc
+firebase.json
 /.pnp
 .pnp.js
 
