@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-src/utils/firebase.js
+/src/utils/firebase.js
 /.firebase
 .firebasesrc
 /firebase.json
