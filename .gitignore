@@ -3,9 +3,9 @@
 # dependencies
 /node_modules
 /src/utils/firebase.js
-/.firebase
-.firebasesrc
-/firebase.json
+.firebase
+.firebaserc
+firebase.json
 /.pnp
 .pnp.js
 
