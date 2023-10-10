@@ -7,7 +7,12 @@
 - Sign up Form
 - Form Validation
 - useRef Hook
-
+- Firebase Setup
+- Deploying our app to Production
+- Create Signup using firebase
+- Implement firebase Signin/up
+- Added Redux store (user Slice added)
+- Implemented Sign Out
 # TO DO
 - Formik to be Added
 
