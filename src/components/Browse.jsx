@@ -9,7 +9,7 @@ import useNowPLayingMovies from '../hooks/useNowPlayingMovies'
 import useTopRatedMovies from '../hooks/useTopRatedMovies'
 
 const Browse = () => {
-  
+  console.log("process.env.REACT_APP_KEY",process.env.REACT_APP_KEY)
 useNowPLayingMovies()
  usePopularMovies()
  useUpcomingMovies()
