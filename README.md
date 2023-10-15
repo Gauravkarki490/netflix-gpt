@@ -14,6 +14,9 @@
 - Added Redux store (user Slice added)
 - Implemented Sign Out
 - Get Palying movie from tdmb added
+- Video container 
+        -Trailer in Background added
+- Movie Suggestions added 
 
 # TO DO
 - Formik to be Added
