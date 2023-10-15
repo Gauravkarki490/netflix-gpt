@@ -16,7 +16,8 @@
 - Get Palying movie from tdmb added
 - Video container 
         -Trailer in Background added
-- Movie Suggestions added 
+- Movie Suggestions
+        - Movie Lists (Vertically scroll)
 
 # TO DO
 - Formik to be Added
