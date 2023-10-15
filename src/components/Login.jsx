@@ -6,14 +6,14 @@ import {
   signInNetflixGpt,
   updateProfileNetflixGpt,
 } from "../utils/login";
-import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 import { auth } from "../utils/firebase";
+import { LOGIN_BG_IMAGE } from "../utils/constant";
 const Login = () => {
+
   const [isSignInForm, setSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
-  const navigate = useNavigate();
   const email = useRef(null);
   const name = useRef(null);
   const confirmPass = useRef(null);
@@ -68,7 +68,6 @@ const Login = () => {
       return;
     }
 
-    navigate("/browse");
   };
 
   return (
@@ -78,7 +77,7 @@ const Login = () => {
         className="absolute bg-fixed bg-cover bg-center w-full h-screen"
         style={{
           backgroundImage:
-            "url('https://assets.nflxext.com/ffe/siteui/vlv3/893a42ad-6a39-43c2-bbc1-a951ec64ed6d/1d86e0ac-428c-4dfa-9810-5251dbf446f8/IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.jpg')",
+            `url('${LOGIN_BG_IMAGE}')`,
         }}
       ></div>
       <form

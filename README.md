@@ -13,6 +13,8 @@
 - Implement firebase Signin/up
 - Added Redux store (user Slice added)
 - Implemented Sign Out
+- Get Palying movie from tdmb added
+
 # TO DO
 - Formik to be Added
 
