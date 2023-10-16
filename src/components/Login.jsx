@@ -7,7 +7,7 @@ import {
   updateProfileNetflixGpt,
 } from "../utils/login";
 import { useDispatch } from "react-redux";
-import { addUser } from "../utils/userSlice";
+import { addUser } from "../utils/store/userSlice";
 import { auth } from "../utils/firebase";
 import { LOGIN_BG_IMAGE } from "../utils/constant";
 const Login = () => {

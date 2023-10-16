@@ -1,8 +1,8 @@
 
-import { LOGIN_BG_IMAGE } from "../utils/constant";
+import { LOGIN_BG_IMAGE } from "../../utils/constant";
 import GptMovieSuggestions from "./GptMovieSuggestions";
 import GptSearchBar from "./GptSearchBar";
-import Header from "./Header";
+import Header from "../Header";
 
 const GptSearchPage = () => {
   return (
