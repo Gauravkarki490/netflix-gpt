@@ -18,6 +18,10 @@
         -Trailer in Background added
 - Movie Suggestions
         - Movie Lists (Vertically scroll)
+- Gpt Search Page
+- Gpt Search Bar
+- Multi Lang Feature in our App
+
 
 # TO DO
 - Formik to be Added
