@@ -21,7 +21,8 @@
 - Gpt Search Page
 - Gpt Search Bar
 - Multi Lang Feature in our App
-
+- APi Intregation added
+- Suggestion part added
 
 # TO DO
 - Formik to be Added

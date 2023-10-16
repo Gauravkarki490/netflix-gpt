@@ -8,7 +8,7 @@ const GptSearchPage = () => {
   return (
     <div >
       <div
-        className="absolute bg-fixed bg-cover bg-center w-full h-screen -z-10"
+        className="fixed bg-fixed bg-cover bg-center w-full h-screen -z-10"
         style={{
           backgroundImage:
             `url('${LOGIN_BG_IMAGE}')`,

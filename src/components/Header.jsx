@@ -73,7 +73,7 @@ const Header = () => {
             className="font-bold text-white rounded-lg"
             onClick={handleSignOut}
           >
-            Sign Out
+            {lang[langKey].signOut}
           </button>
         </div>
       )}
