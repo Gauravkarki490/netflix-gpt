@@ -18,6 +18,7 @@ export const checkSignUpData =(name,email,password,confirmPassword)=>{
     const isName = name !== ''
     const isEmailValid = /^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$/.test(email)
     const isPasswordValid =/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$/.test(password)
+    // const isPasswordValid =true
 
     if(!isName){
         return "Name is not valid"

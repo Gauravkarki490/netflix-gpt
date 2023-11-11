@@ -6,15 +6,15 @@ import { setMovieSuggestionLoading } from "../../utils/store/movieSlice";
 const GptMovieSuggestions = () => {
   const moviesReuslt = useSelector((state) => state.movies.moviesResult);
   const moviesName = useSelector((state) => state.movies.moviesName);
-  const isLoading = useSelector((state)=>state.movies.movieSuggestionLoading)
-  const dispatch = useDispatch()
+  // const isLoading = useSelector((state)=>state.movies.movieSuggestionLoading)
+  // const dispatch = useDispatch()
 
   
-  useEffect(()=>{
-   dispatch(setMovieSuggestionLoading())
-  },[moviesReuslt])
+  // useEffect(()=>{
+  //  dispatch(setMovieSuggestionLoading())
+  // },[moviesReuslt])
 
-  if(isLoading) return <LodingBar/>
+  // if(isLoading) return <LodingBar/>
   if (moviesReuslt?.length === 0 && moviesName?.length === 0) return null;
 
   return (

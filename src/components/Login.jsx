@@ -32,6 +32,7 @@ const Login = () => {
     if (isSignInForm) {
 
       message = checkValidData(email.current.value, password.current.value);
+      console.log(message)
       setErrorMessage(message);
       if (message) return;
       response = await signInNetflixGpt(email.current.value, password.current.value);

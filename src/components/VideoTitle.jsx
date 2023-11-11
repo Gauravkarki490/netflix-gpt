@@ -4,7 +4,7 @@ const VideoTitle = ({ title, overview }) => {
   return (
     <div className="w-full h-full pt-[75%] md:pt-[20%]  px-4 md:px-12 absolute text-white bg-gradient-to-r from-black z-[1]">
       <h1 className="text-3xl md:text-5xl font-bold">{title}</h1>
-      <p className="py-4 md:py-6 text-base md:text-lg w-full md:w-1/2 lg:w-1/2">{overview}</p>
+      <p className=" py-4 md:py-6 text-base md:text-lg w-full md:w-1/2 lg:w-1/2">{overview}</p>
       <div className="flex flex-col md:flex-row">
         <button className="bg-white p-3 md:p-4 px-8 md:px-10 text-base hover:bg-opacity-80 md:text-lg text-black flex justify-center items-center rounded-lg font-bold mb-4 md:mb-0 md:mr-4">
           <div>
